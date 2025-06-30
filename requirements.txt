@@ -1,0 +1,8 @@
+Flask==2.3.2
+gunicorn==20.1.0
+opencv-python-headless==4.7.0.72  # Headless version for server environments
+scikit-learn==1.2.2
+numpy==1.24.3
+joblib==1.2.0  # For loading .pkl files
+flask-cors==3.0.10  # If your frontend makes API calls
+Werkzeug==2.3.7  # Flask's WSGI dependency
