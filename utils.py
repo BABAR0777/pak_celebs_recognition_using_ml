@@ -6,10 +6,10 @@ import json
 import base64
 
 global model
-model = joblib.load('./artifects/celebrity_recognition_model.pkl')
+model = joblib.load('./artifacts/celebrity_recognition_model.pkl')
 
 global class_dict
-with open('./artifects/class_dict.json', 'r') as f:
+with open('./artifacts/class_dict.json', 'r') as f:
     class_dict = json.load(f)
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
